@@ -1,0 +1,1722 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "rectangle",
+      "id": "sqySo",
+      "x": -48,
+      "y": -1212,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/66BCD08F-0D7D-4678-922B-C6C16A2E7C7B.png",
+        "mode": "fill"
+      },
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "AØ LAB — Mini Design System v1.0",
+      "clip": true,
+      "width": 1440,
+      "fill": "$ao-black",
+      "layout": "vertical",
+      "gap": 48,
+      "padding": [
+        64,
+        72
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "Dqqjz",
+          "name": "Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "IHFXe",
+              "name": "headerTitle",
+              "fill": "$white",
+              "content": "AØ LAB — MINI DESIGN SYSTEM v1.0",
+              "fontFamily": "NAMU",
+              "fontSize": 40,
+              "fontWeight": "600",
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "ZrCHY",
+              "name": "headerSubtitle",
+              "fill": "$metal-light",
+              "content": "Engineering 3D & Prototyping",
+              "fontFamily": "NAMU",
+              "fontSize": 16
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RhHwb",
+          "name": "1. Лого",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "Hhdm3",
+              "name": "logoTitle",
+              "fill": "$white",
+              "content": "1. ЛОГО",
+              "fontFamily": "NAMU",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "ddLiS",
+              "name": "logoDesc",
+              "fill": "$metal-light",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Иерархия: полный логотип и отдельный знак Ø.",
+              "fontFamily": "NAMU",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "QKomM",
+              "name": "Logo Row",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9ZMCb",
+                  "name": "Full Lockup",
+                  "width": "fill_container",
+                  "fill": "$graphite",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Op449",
+                      "name": "fullLabel",
+                      "fill": "$metal-light",
+                      "content": "ПОЛНЫЙ ЛОГОТИП",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HKbp4",
+                      "name": "Light Preview",
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": "$white",
+                      "gap": 24,
+                      "padding": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "OloBk",
+                          "name": "Symbol 3D",
+                          "width": 120,
+                          "height": 120,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "dYfdv",
+                              "x": 12,
+                              "y": 14,
+                              "name": "backRing",
+                              "innerRadius": 0.62,
+                              "fill": "$graphite",
+                              "width": 92,
+                              "height": 92
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "iVsCJ",
+                              "x": 8,
+                              "y": 10,
+                              "name": "midRing",
+                              "innerRadius": 0.62,
+                              "fill": "$ao-black",
+                              "width": 92,
+                              "height": 92
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "xen1X",
+                              "x": 4,
+                              "y": 6,
+                              "name": "topRing",
+                              "innerRadius": 0.62,
+                              "fill": "$metal-light",
+                              "width": 92,
+                              "height": 92,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1,
+                                "fill": "$ao-black"
+                              }
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "zAYsA",
+                              "x": 0,
+                              "y": 54,
+                              "name": "cutRect",
+                              "rotation": -20,
+                              "fill": "$white",
+                              "width": 120,
+                              "height": 16
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "2oIi2",
+                          "name": "logoText",
+                          "fill": "$ao-black",
+                          "content": "AØ LAB",
+                          "fontFamily": "NAMU",
+                          "fontSize": 32,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "M8qEM",
+                      "name": "fullDesc",
+                      "fill": "$metal-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Использование: презентации, сайт, документы.",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1fUlF",
+                  "name": "Symbol",
+                  "width": "fill_container",
+                  "fill": "$graphite",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fz8mc",
+                      "name": "symbolLabel",
+                      "fill": "$metal-light",
+                      "content": "ЗНАК Ø",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "5gjyi",
+                      "name": "Symbol Row",
+                      "width": "fill_container",
+                      "height": 160,
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VKVXf",
+                          "name": "3D Symbol",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$white",
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "2kbuF",
+                              "name": "3D Mark",
+                              "width": 88,
+                              "height": 88,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "dfwS7",
+                                  "x": 10,
+                                  "y": 12,
+                                  "name": "smallBack",
+                                  "innerRadius": 0.62,
+                                  "fill": "$graphite",
+                                  "width": 72,
+                                  "height": 72
+                                },
+                                {
+                                  "type": "ellipse",
+                                  "id": "qLLnF",
+                                  "x": 6,
+                                  "y": 8,
+                                  "name": "smallMid",
+                                  "innerRadius": 0.62,
+                                  "fill": "$ao-black",
+                                  "width": 72,
+                                  "height": 72
+                                },
+                                {
+                                  "type": "ellipse",
+                                  "id": "BfcNg",
+                                  "x": 2,
+                                  "y": 4,
+                                  "name": "smallTop",
+                                  "innerRadius": 0.62,
+                                  "fill": "$metal-light",
+                                  "width": 72,
+                                  "height": 72,
+                                  "stroke": {
+                                    "align": "inside",
+                                    "thickness": 1,
+                                    "fill": "$ao-black"
+                                  }
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "1hSDS",
+                                  "x": 0,
+                                  "y": 42,
+                                  "name": "smallCut",
+                                  "rotation": -20,
+                                  "fill": "$white",
+                                  "width": 88,
+                                  "height": 12
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "1zaG5",
+                              "name": "label3D",
+                              "fill": "$ao-black",
+                              "content": "3D",
+                              "fontFamily": "NAMU",
+                              "fontSize": 10,
+                              "fontWeight": "600",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RKicB",
+                          "name": "Flat Symbol",
+                          "width": "fill_container",
+                          "height": "fill_container",
+                          "fill": "$white",
+                          "layout": "vertical",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "QV61j",
+                              "name": "Flat Mark",
+                              "width": 88,
+                              "height": 88,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "E1IN0",
+                                  "x": 8,
+                                  "y": 8,
+                                  "name": "flatRing",
+                                  "innerRadius": 0.62,
+                                  "fill": "$ao-black",
+                                  "width": 72,
+                                  "height": 72
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "kOD5b",
+                                  "x": 0,
+                                  "y": 40,
+                                  "name": "flatCut",
+                                  "rotation": -20,
+                                  "fill": "$white",
+                                  "width": 88,
+                                  "height": 12
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "fjqVZ",
+                              "name": "labelFlat",
+                              "fill": "$ao-black",
+                              "content": "FLAT",
+                              "fontFamily": "NAMU",
+                              "fontSize": 10,
+                              "fontWeight": "600",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "rVQck",
+                      "name": "symbolDesc",
+                      "fill": "$metal-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Применение: аватарки, фавикон, стикеры.",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AaeuV",
+          "name": "2. Цвета",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "45VDf",
+              "name": "colorTitle",
+              "fill": "$white",
+              "content": "2. ЦВЕТА",
+              "fontFamily": "NAMU",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "Uqhvs",
+              "name": "colorDesc",
+              "fill": "$metal-light",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Базовая палитра + 1 акцент. AØ Cyan — не более 10–15% площади.",
+              "fontFamily": "NAMU",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "5k2Iq",
+              "name": "Main Colors",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wRdAz",
+                  "name": "AØ Black",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "$ao-black",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aBUBU",
+                      "name": "blackName",
+                      "fill": "$white",
+                      "content": "AØ BLACK",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "sHwQz",
+                      "name": "blackHex",
+                      "fill": "$white",
+                      "content": "#050608",
+                      "fontFamily": "NAMU",
+                      "fontSize": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Pr1So",
+                  "name": "Graphite",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "$graphite",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2FBze",
+                      "name": "graphName",
+                      "fill": "$white",
+                      "content": "GRAPHITE",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "nV5iH",
+                      "name": "graphHex",
+                      "fill": "$white",
+                      "content": "#20242A",
+                      "fontFamily": "NAMU",
+                      "fontSize": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7VBcu",
+                  "name": "Metal Light",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "$metal-light",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8opM3",
+                      "name": "metalName",
+                      "fill": "$ao-black",
+                      "content": "METAL LIGHT",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "IKKLu",
+                      "name": "metalHex",
+                      "fill": "$ao-black",
+                      "content": "#E6EAEE",
+                      "fontFamily": "NAMU",
+                      "fontSize": 11
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q5AsS",
+              "name": "Accent Colors",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i2xYt",
+                  "name": "White",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "$white",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zwTEi",
+                      "name": "whiteName",
+                      "fill": "$ao-black",
+                      "content": "WHITE",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "5O6pB",
+                      "name": "whiteHex",
+                      "fill": "$ao-black",
+                      "content": "#FFFFFF",
+                      "fontFamily": "NAMU",
+                      "fontSize": 11
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TTQ2k",
+                  "name": "AØ Cyan",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#1847c2ff",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7UIfH",
+                      "name": "cyanName",
+                      "fill": "$ao-black",
+                      "content": "AØ CYAN",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "guqZ7",
+                      "name": "cyanHex",
+                      "fill": "$ao-black",
+                      "content": "#1847c2ff",
+                      "fontFamily": "NAMU",
+                      "fontSize": 11
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4Rzjq",
+          "name": "3. Типографика",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "trOjO",
+              "name": "typeTitle",
+              "fill": "$white",
+              "content": "3. ТИПОГРАФИКА",
+              "fontFamily": "NAMU",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "1iyyT",
+              "name": "typeDesc",
+              "fill": "$metal-light",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Основной шрифт: NAMU. Начертания Regular / Medium / Bold. Название AØ LAB — только капсом, tracking −2…0.",
+              "fontFamily": "NAMU",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "G9yHy",
+              "name": "Type Row",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mn2iu",
+                  "name": "Type Scale",
+                  "width": "fill_container",
+                  "fill": "$graphite",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OPBRB",
+                      "name": "scaleLabel",
+                      "fill": "$metal-light",
+                      "content": "ТИПОСКЕЙЛ",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "PyJMb",
+                      "name": "scaleH1",
+                      "fill": "$white",
+                      "content": "H1 — 40 pt",
+                      "fontFamily": "NAMU",
+                      "fontSize": 40,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "oJYl4",
+                      "name": "scaleH2",
+                      "fill": "$white",
+                      "content": "H2 — 28 pt",
+                      "fontFamily": "NAMU",
+                      "fontSize": 28,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.3
+                    },
+                    {
+                      "type": "text",
+                      "id": "7APXG",
+                      "name": "scaleBody",
+                      "fill": "$metal-light",
+                      "content": "Body — 16 pt",
+                      "fontFamily": "NAMU",
+                      "fontSize": 16
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XaEIT",
+                  "name": "Type Weights",
+                  "width": "fill_container",
+                  "fill": "$graphite",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KmbAz",
+                      "name": "weightLabel",
+                      "fill": "$metal-light",
+                      "content": "НАЧЕРТАНИЯ",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "jqO5J",
+                      "name": "weightReg",
+                      "fill": "$white",
+                      "content": "Regular 400",
+                      "fontFamily": "NAMU",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "tOHXl",
+                      "name": "weightMed",
+                      "fill": "$white",
+                      "content": "Medium 500",
+                      "fontFamily": "NAMU",
+                      "fontSize": 18,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qlxjt",
+                      "name": "weightBold",
+                      "fill": "$white",
+                      "content": "Bold 700",
+                      "fontFamily": "NAMU",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WU34B",
+          "name": "4. Отступы и сетка",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "7Yx57",
+              "name": "spaceTitle",
+              "fill": "$white",
+              "content": "4. ОТСТУПЫ И СЕТКА",
+              "fontFamily": "NAMU",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "oYOm7",
+              "name": "spaceDesc",
+              "fill": "$metal-light",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "База — сетка 8 px и защитное поле для логотипа.",
+              "fontFamily": "NAMU",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "jRBBf",
+              "name": "Spacing Row",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i5E1b",
+                  "name": "Rules",
+                  "width": "fill_container",
+                  "fill": "$graphite",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "deLxs",
+                      "name": "rulesLabel",
+                      "fill": "$metal-light",
+                      "content": "ПРАВИЛА",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "E4ZIj",
+                      "name": "rule1",
+                      "fill": "$white",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "- Минимальный отступ вокруг лого = ширина белого кольца Ø.",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "3FkFL",
+                      "name": "rule2",
+                      "fill": "$white",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "- Не ставить лого ближе 2× этого отступа к краям.",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "JVQ9C",
+                      "name": "rule3",
+                      "fill": "$white",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "- Сетка 8 px: 8 / 16 / 24 / 32.",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BsiRL",
+                  "name": "Grid",
+                  "width": "fill_container",
+                  "fill": "$graphite",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nVYyK",
+                      "name": "gridLabel",
+                      "fill": "$metal-light",
+                      "content": "МОДУЛИ 8PX",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8YXFz",
+                      "name": "Grid Modules",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "8PNOw",
+                          "name": "8",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "kmXh6",
+                              "name": "mod8Rect",
+                              "fill": "$metal-light",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "text",
+                              "id": "5BLQH",
+                              "name": "mod8Label",
+                              "fill": "$white",
+                              "content": "8",
+                              "fontFamily": "NAMU",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SpEbZ",
+                          "name": "16",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "1bAKE",
+                              "name": "mod16Rect",
+                              "fill": "$metal-light",
+                              "width": 16,
+                              "height": 16
+                            },
+                            {
+                              "type": "text",
+                              "id": "PuVNn",
+                              "name": "mod16Label",
+                              "fill": "$white",
+                              "content": "16",
+                              "fontFamily": "NAMU",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qDHuX",
+                          "name": "24",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "SmzHF",
+                              "name": "mod24Rect",
+                              "fill": "$metal-light",
+                              "width": 24,
+                              "height": 24
+                            },
+                            {
+                              "type": "text",
+                              "id": "QWCVH",
+                              "name": "mod24Label",
+                              "fill": "$white",
+                              "content": "24",
+                              "fontFamily": "NAMU",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xdcdU",
+                          "name": "32",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "GUXCM",
+                              "name": "mod32Rect",
+                              "fill": "$metal-light",
+                              "width": 32,
+                              "height": 32
+                            },
+                            {
+                              "type": "text",
+                              "id": "KQIAs",
+                              "name": "mod32Label",
+                              "fill": "$white",
+                              "content": "32",
+                              "fontFamily": "NAMU",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nTTmz",
+          "name": "5. Фоны и версии",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "sAbJ0",
+              "name": "bgTitle",
+              "fill": "$white",
+              "content": "5. ФОНЫ И ВЕРСИИ ЛОГО",
+              "fontFamily": "NAMU",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "vLk5z",
+              "name": "bgDesc",
+              "fill": "$metal-light",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "На светлом фоне — чёрный/металл. На тёмном — белый/металл. Ø не окрашивать в AØ Cyan.",
+              "fontFamily": "NAMU",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "2RSKJ",
+              "name": "Background Row",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wrFki",
+                  "name": "Light Background",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JwlpT",
+                      "name": "lightLabel",
+                      "fill": "$ao-black",
+                      "content": "LIGHT",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c2nrt",
+                      "name": "Light Logo",
+                      "width": "fill_container",
+                      "height": 120,
+                      "gap": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "a3PYb",
+                          "name": "Light Symbol",
+                          "width": 80,
+                          "height": 80,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "JtWVx",
+                              "x": 8,
+                              "y": 8,
+                              "name": "lightRing",
+                              "innerRadius": 0.62,
+                              "fill": "$ao-black",
+                              "width": 64,
+                              "height": 64
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "raYIt",
+                              "x": 0,
+                              "y": 36,
+                              "name": "lightCut",
+                              "rotation": -20,
+                              "fill": "$white",
+                              "width": 80,
+                              "height": 10
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "t0pxQ",
+                          "name": "lightText",
+                          "fill": "$ao-black",
+                          "content": "AØ LAB",
+                          "fontFamily": "NAMU",
+                          "fontSize": 28,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s2b1p",
+                  "name": "Dark Background",
+                  "width": "fill_container",
+                  "fill": "$ao-black",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7RLee",
+                      "name": "darkLabel",
+                      "fill": "$metal-light",
+                      "content": "DARK",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "d3BZz",
+                      "name": "Dark Logo",
+                      "width": "fill_container",
+                      "height": 120,
+                      "gap": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "A1eNc",
+                          "name": "Dark Symbol",
+                          "width": 80,
+                          "height": 80,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "XAASX",
+                              "x": 8,
+                              "y": 8,
+                              "name": "darkRing",
+                              "innerRadius": 0.62,
+                              "fill": "$white",
+                              "width": 64,
+                              "height": 64
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "xftlp",
+                              "x": 0,
+                              "y": 36,
+                              "name": "darkCut",
+                              "rotation": -20,
+                              "fill": "$ao-black",
+                              "width": 80,
+                              "height": 10
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "QxeNb",
+                          "name": "darkText",
+                          "fill": "$white",
+                          "content": "AØ LAB",
+                          "fontFamily": "NAMU",
+                          "fontSize": 28,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rg6SA",
+          "name": "6. Иконки и графика",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "bj21x",
+              "name": "iconTitle",
+              "fill": "$white",
+              "content": "6. ИКОНКИ И ГРАФИКА",
+              "fontFamily": "NAMU",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "lOGoU",
+              "name": "iconDesc",
+              "fill": "$metal-light",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Иконки — монохромные, линейные, единая толщина. Углы: 0 или микроскругление 2–4 px. Фото: предметы, детали, механика, крупные планы.",
+              "fontFamily": "NAMU",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "KSuPh",
+              "name": "Icon Card",
+              "width": "fill_container",
+              "fill": "$graphite",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$metal-light"
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HIWwu",
+                  "name": "iconLabel",
+                  "fill": "$metal-light",
+                  "content": "ИКОНКИ",
+                  "fontFamily": "NAMU",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "23ywZ",
+                  "name": "Icon Row",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "hR9gy",
+                      "name": "icon1",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "settings",
+                      "iconFontFamily": "lucide",
+                      "fill": "$metal-light"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "l1nV3",
+                      "name": "icon2",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "layout-dashboard",
+                      "iconFontFamily": "lucide",
+                      "fill": "$metal-light"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "wQFof",
+                      "name": "icon3",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "folder",
+                      "iconFontFamily": "lucide",
+                      "fill": "$metal-light"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "Th0g6",
+                      "name": "icon4",
+                      "width": 24,
+                      "height": 24,
+                      "iconFontName": "file",
+                      "iconFontFamily": "lucide",
+                      "fill": "$metal-light"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "MnCzw",
+                  "name": "iconNote",
+                  "fill": "$metal-light",
+                  "content": "Линии одинаковой толщины, без заливок.",
+                  "fontFamily": "NAMU",
+                  "fontSize": 12
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6fhAE",
+          "name": "7. Использование AØ LAB в тексте",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "Mr4Qc",
+              "name": "usageTitle",
+              "fill": "$white",
+              "content": "7. ИСПОЛЬЗОВАНИЕ AØ LAB В ТЕКСТЕ",
+              "fontFamily": "NAMU",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "text",
+              "id": "UgD2E",
+              "name": "usageDesc",
+              "fill": "$metal-light",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Везде использовать AØ LAB (капсом). Ø не заменять на O или 0.",
+              "fontFamily": "NAMU",
+              "fontSize": 14
+            },
+            {
+              "type": "frame",
+              "id": "QEElw",
+              "name": "Usage",
+              "width": "fill_container",
+              "fill": "$graphite",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$metal-light"
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EkUam",
+                  "name": "usageLabel",
+                  "fill": "$metal-light",
+                  "content": "ПРИМЕР",
+                  "fontFamily": "NAMU",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "XJ0dR",
+                  "name": "usageWord",
+                  "fill": "$white",
+                  "content": "AØ LAB",
+                  "fontFamily": "NAMU",
+                  "fontSize": 28,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "bRLIQ",
+                  "name": "usageCaption",
+                  "fill": "$metal-light",
+                  "content": "Engineering 3D & Prototyping",
+                  "fontFamily": "NAMU",
+                  "fontSize": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eULLM",
+          "name": "8. Do / Don't",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "XDtSJ",
+              "name": "rulesTitle",
+              "fill": "$white",
+              "content": "8. DO / DON'T",
+              "fontFamily": "NAMU",
+              "fontSize": 28,
+              "fontWeight": "500",
+              "letterSpacing": 0.5
+            },
+            {
+              "type": "frame",
+              "id": "Os4WK",
+              "name": "DoDont Row",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "JZyLr",
+                  "name": "Do",
+                  "width": "fill_container",
+                  "fill": "$graphite",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jz6mt",
+                      "name": "doHeader",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Uz2IM",
+                          "name": "doIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "check",
+                          "iconFontFamily": "lucide",
+                          "fill": "$ao-cyan"
+                        },
+                        {
+                          "type": "text",
+                          "id": "l9tOg",
+                          "name": "doLabel",
+                          "fill": "$white",
+                          "content": "DO",
+                          "fontFamily": "NAMU",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "yBh37",
+                      "name": "doItem1",
+                      "fill": "$metal-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "- Чистый фон, много воздуха вокруг лого.",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "22nPu",
+                      "name": "doItem2",
+                      "fill": "$metal-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "- Использовать Ø как отдельный знак (стикеры, иконка приложения).",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "WIyzj",
+                      "name": "doItem3",
+                      "fill": "$metal-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "- Минимум цвета, максимум структуры в интерфейсах и презентациях.",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OLfxK",
+                  "name": "Dont",
+                  "width": "fill_container",
+                  "fill": "$graphite",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$metal-light"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "C71nb",
+                      "name": "dontHeader",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "13Oks",
+                          "name": "dontIcon",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "x",
+                          "iconFontFamily": "lucide",
+                          "fill": "$metal-light"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fng0f",
+                          "name": "dontLabel",
+                          "fill": "$white",
+                          "content": "DON'T",
+                          "fontFamily": "NAMU",
+                          "fontSize": 12,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q8WuA",
+                      "name": "dontItem1",
+                      "fill": "$metal-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "- Не искажать Ø (наклон, растягивание).",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "vplXw",
+                      "name": "dontItem2",
+                      "fill": "$metal-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "- Не заменять Ø на O или 0.",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "XatPM",
+                      "name": "dontItem3",
+                      "fill": "$metal-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "- Не добавлять орнаменты и градиенты «ради красоты».",
+                      "fontFamily": "NAMU",
+                      "fontSize": 12
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rectangle",
+      "id": "NZz4e",
+      "x": 1636,
+      "y": -1212,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/13F3F9B5-382E-4D63-8A87-095ADA759E13.png",
+        "mode": "fill"
+      },
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "type": "rectangle",
+      "id": "QrcuK",
+      "x": -1720,
+      "y": -1212,
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "images/C495AF2C-BF17-442F-892E-537B48DE9176.png",
+        "mode": "fill"
+      },
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "variables": {
+    "ao-black": {
+      "type": "color",
+      "value": "#050608"
+    },
+    "ao-cyan": {
+      "type": "color",
+      "value": "#3BD5FF"
+    },
+    "font-primary": {
+      "type": "string",
+      "value": "NAMU"
+    },
+    "font-secondary": {
+      "type": "string",
+      "value": "NAMU"
+    },
+    "graphite": {
+      "type": "color",
+      "value": "#20242A"
+    },
+    "metal-light": {
+      "type": "color",
+      "value": "#E6EAEE"
+    },
+    "space-16": {
+      "type": "number",
+      "value": 16
+    },
+    "space-24": {
+      "type": "number",
+      "value": 24
+    },
+    "space-32": {
+      "type": "number",
+      "value": 32
+    },
+    "space-8": {
+      "type": "number",
+      "value": 8
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    }
+  }
+}
